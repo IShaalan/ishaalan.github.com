@@ -11460,7 +11460,5 @@ header.masthead h1, header.masthead .h1 {
 
 .centering {
   text-align: center !important;
-  align-content: center !important;
-  align-self: center !important;
-  align-content: center !important;
+  margin: auto !important;
 }
