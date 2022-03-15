@@ -148,6 +148,8 @@
  <!-- Portfolio -->
   <div class="album py-5">
     <div class="container">
+      <h2 class="text-center mt-0">Portfolio</h2>
+      <hr class="divider" />
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
           <div class="card shadow-sm">
@@ -177,7 +179,7 @@
                 <small class="text-muted">#Product Management #Analytics</small>
               </div>
               <div class="btn-group">
-                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-sm btn-outline-secondary">Learn More</button>
+                <button type="button" data-bs-toggle="modal" data-bs-target="#winjigo_modal" class="btn btn-sm btn-outline-secondary">Learn More</button>
               </div>
             </div>
           </div>
@@ -186,15 +188,19 @@
         <div class="col">
           <div class="card shadow-sm">
             <!--<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
-            <img class="img-responsive" src="assets/img/portfolio/fullsize/MentalHealth.jpg" height="225" alt="">
+            <img class="img-responsive" src="assets/img/portfolio/thumbnails/MentalHealth.jpg" height="225" alt="">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Predicting individuals in tech companies who need mental health intervention using supervised machine learning (scikit-learn).</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="row">
                   <small class="text-muted">#MachineLearning #Analytics</small>
                 </div>
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary centering">Learn More</button>
+                  <!--<button type="button" class="btn btn-sm btn-outline-secondary centering" >Learn More</button>-->
+                  <!--<button type="button" class="btn btn-sm btn-outline-secondary">Visit Project Site</button>-->
+                  <form action="https://github.com/IShaalan/mental_health_tech/" method="get" target="_blank">
+                    <button type="submit" class="btn btn-sm btn-outline-secondary">Visit Project Site</button>
+                  </form>
                 </div>
               </div>
             </div>
@@ -204,15 +210,21 @@
         <div class="col">
           <div class="card shadow-sm">
             <!--<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
-            <img class="img-responsive" src="assets/img/portfolio/fullsize/EducationInequality.png" alt="">
+            <img class="img-responsive" src="assets/img/portfolio/thumbnails/edu_socio2.jpg" alt="">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Analyzing the relationship between quality of education and the socio-economic indicators by GDP, region, budget spending and income group.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="row">
-                  <small class="text-muted centering">#Analytics </small>
+                  <small class="text-muted centering">#DataPipeline #DataAnalysis</small>
                 </div>
-                <div class="row">
-                  <button type="button" class="btn btn-sm btn-outline-secondary centering">Learn More</button>
+                <div class="btn-group">
+                  
+                  <form action="https://github.com/IShaalan/education-inequality" method="get" target="_blank">
+                    <button type="submit" class="btn btn-sm btn-outline-secondary">Visit Project Site</button>
+                  </form>
+                  <!--
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#education_socioeconomic_modal" class="btn btn-sm btn-outline-secondary">Learn More</button>
+                  -->
                 </div>
               </div>
             </div>
@@ -226,7 +238,7 @@
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="row">
-                  <small class="text-muted centering">#DataVisualization #TechnologyConsulting </small>
+                  <small class="text-muted centering">#Visualization</small>
                 </div>
                 <div class="row">
                   <button type="button" class="btn btn-sm btn-outline-secondary centering">Learn More</button>
@@ -237,18 +249,24 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
+            <!--
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
+            -->
+            <img class="img-responsive" src="assets/img/portfolio/thumbnails/gems_architecture.png" alt="">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Designing the technology strategy, roadmap, and rollout timeline for the largest private school operator in the world.</p>
               <div class="d-flex justify-content-between align-items-center">
+                <div class="row">
+                  <small class="text-muted">#TechnologyConsulting</small>
+                </div>
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#gems_modal" class="btn btn-sm btn-outline-secondary">Learn More</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <!--
 
         <div class="col">
           <div class="card shadow-sm">
@@ -288,15 +306,15 @@
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                 </div>
-                <!--<small class="text-muted">9 mins</small>-->
+                  <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
         </div>
+      -->
       </div>
     </div>
   </div>
-
 </main>
 
 <footer class="text-muted py-5">
@@ -314,7 +332,24 @@
 
   </body>
   <!--Modals-->
-  <!--Empty Modal-->
+  <!-- EMPTY Modal -->
+<div class="modal fade" id="emptyModal" tabindex="-1" aria-labelledby="tk_modal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- END EMPTY Modal -->
+  <!--Blog Modal-->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -381,8 +416,8 @@
     </div>
   </div>
   <!--End Empty-->
-  <!-- TK Modal-->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <!-- WINJIGO Modal-->
+  <div class="modal fade" id="winjigo_modal" tabindex="-1" aria-labelledby="tk_modal" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -447,5 +482,96 @@
       </div>
     </div>
   </div>
-<!--END TK MODAL-->  
+<!--END WINJIGO MODAL-->  
+<!-- Mental Health Modal -->
+<div class="modal fade" id="mental_health_modal" tabindex="-1" aria-labelledby="tk_modal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END MENTAL Health Modal-->
+<!-- oktopi Modal -->
+<div class="modal fade" id="oktopi_modal" tabindex="-1" aria-labelledby="tk_modal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END oktopi Modal-->
+<!-- Education Socioeconomic Modal -->
+<div class="modal fade" id="education_socioeconomic_modal" tabindex="-1" aria-labelledby="tk_modal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END Education Socioeconomic Modal-->
+<!-- GEMS Modal -->
+<div class="modal fade" id="gems_modal" tabindex="-1" aria-labelledby="tk_modal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLabel">GEMS Education</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h3>Context</h3>
+        <p>GEMS Education is the largest private school operator in the world. They grew and acquired different private schools around the world serving different customer segments with tuition ranging from $200 per year to $50,000. Each school had its own IT budget and software solutions – most of them are not being used. As the number of schools grew the budget grew exponentially and managing the sheer number of solutions became impossible resulting in a degradation of service for all stakeholders. </p>
+        <h3>Project Goal</h3>
+        GEMS Education needed to have a reliable single source of truth that feeds all the other systems. Additionally, they need to achieve the following objectives before their anticipated IPO offering:
+        <ul>
+          <li>Decrease the annual IT spending</li>
+          <li>Improve the users' satisfaction</li>
+          <li>Create differentiated offerings for the different customer segments</li>
+          <li>Increase the adoption of products</li>
+        </ul>
+        <p></p>
+        <h3>My Role</h3>
+        <ul>
+          <li>Interviewed GEMS leadership team and stakeholders from all departments of the schools across 6 countries</li>
+          <li>Developed a toolkit to evaluate the maturity of education technology of the schools</li>
+          <li>Shaped the unified technology backbone that allows for adding customized blocks (i.e. products) that meets the localized needs of the different segments</li>
+          <li>Designed the technology strategy for the rollout, implementation, and governance of the technology backbone</li>
+        </ul>
+        <h3>Results</h3>
+        <ul>
+          <li>Drastic reduction in the number of applications from over 1000 distinct application to less than 200 (including content apps) </li>
+          <li>40% Reduction in the IT spending per year starting from the first year of the implementation</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END GEMS Modal-->
 </html>
