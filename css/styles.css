@@ -50,6 +50,7 @@
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
+  --bs-darkblue-rgb: 33, 37, 41;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
@@ -613,6 +614,14 @@ progress {
   max-width: 100%;
   height: auto;
 }
+
+.img-thumbnail-noborder {
+  padding: 0.1rem;
+  background-color: #fff;
+  max-width: 100%;
+  height: auto;
+}
+
 
 .figure {
   display: inline-block;
@@ -2995,8 +3004,8 @@ textarea.form-control-lg {
 
 .btn {
   display: inline-block;
-  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 400;
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   line-height: 1.5;
   color: #212529;
   text-align: center;
@@ -3031,6 +3040,25 @@ textarea.form-control-lg {
   opacity: 0.65;
 }
 
+.btn-main {
+  width: 10rem;
+  height: 3rem;
+  color: #fff;
+  background-color: #345B73;
+  border-color: #345B73;
+  text-align: auto;
+  vertical-align: middle;
+  line-height: 30px;
+  text-align: center !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+.btn-main:hover {
+  color: #fff;
+  background-color: #BF5A50;
+  border-color: #BF5A50;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #343a40;
@@ -3063,8 +3091,8 @@ textarea.form-control-lg {
 
 .btn-secondary {
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: #345B73;
+  border-color: #345B73;
 }
 .btn-secondary:hover {
   color: #fff;
@@ -7846,7 +7874,12 @@ textarea.form-control-lg {
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #345B73 !important;
+}
+
+.bg-mid {
+  --bs-bg-opacity: 1;
+  background-color: #D9D9D9 !important;
 }
 
 .bg-black {
@@ -11322,6 +11355,23 @@ hr.divider {
   max-width: 3.25rem;
   margin: 1.5rem auto;
   background-color: #343a40;
+  opacity: 1;
+}
+
+hr.divider-midsize {
+  height: 0.2rem;
+  max-width: 5.25rem;
+  margin: 1.5rem auto;
+  background-color: #343a40;
+  opacity: 1;
+}
+
+
+hr.divider-white {
+  height: 0.2rem;
+  max-width: 5.25rem;
+  margin: 1.5rem auto;
+  background-color: #ffff;
   opacity: 1;
 }
 
